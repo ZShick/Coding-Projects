@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/one_page_website.css">
+    <title>Kings Canyon | Rentals</title>
+    <script src="JS/one_page_website.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="wrap">
+        <div class="menu-container">
+            <ul class="menu">
+                <a href="#home" id="link">
+                    <li>Home</li>
+                </a>
+                <a href="#gallery">
+                    <li>Gallery</li>
+                </a>
+                <a href="#map">
+                    <li>Interactive Map</li>
+                </a>
+                <a href="#apply">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- Home -->
+    <div id="home">
+        <div class="container">
+            <div class="text-center">
+                <span class="head-main">
+						Kings Canyon Rentals
+					</span>
+                <p class="tagline">
+                    Looking for a place to host your next Bloodsport event? Kings Canyon Rentals has you covered. We have many locations to choose from at Kings Canyon, or you can choose to rent out the whole island for large events!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- END HOME -->
+
+    <!-- GALLERY -->
+    <section id="gallery">
+        <div class="container">
+            <h1>Gallery</h1>
+            <div class="flex-container">
+
+                <!-- PHOTO-CONTAINER 1 -->
+                <div class="photo-container" onclick="openModal();currentSlide(1)">
+                    <div class="photo">
+                        <img src="images/thumb/thumbnail_1.png" alt="Southern River Overlook">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"A nice position for snipers to hold. Southern River Overlook"</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 1 -->
+
+                <!-- PHOTO-CONTAINER 2 -->
+                <div class="photo-container" onclick="openModal();currentSlide(2)">
+                    <div class="photo">
+                        <img src="images/thumb/thumbnail_2.png" alt="Wildlife">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"Optional wildlife can be added. Northern River Overlook/Containment."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 2 -->
+
+                <!-- PHOTO-CONTAINER 3 -->
+                <div class="photo-container" onclick="openModal();currentSlide(3)">
+                    <div class="photo">
+                        <img src="images/thumb/thumbnail_3.png" alt="SW Corner">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"The SW corner of the map. A more open area for hectic engagements."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 3 -->
+
+                <!-- PHOTO-CONTAINER 4 -->
+                <div class="photo-container" onclick="openModal();currentSlide(4)">
+                    <div class="photo">
+                        <img src="images/thumb/thumbnail_4.png" alt="Newly renovated Northern area">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"We have added a crashed ship up north that mixes indoor and outdoor combat with some exciting verticallity."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 4 -->
+
+                <!-- PHOTO-CONTAINER 5 -->
+                <div class="photo-container" onclick="openModal();currentSlide(5)">
+                    <div class="photo">
+                        <img src="images/thumb/thumbnail_5.png" alt="NE Corner">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"The NE corner of the map. More green and hilly."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 5 -->
+
+                <!-- PHOTO-CONTAINER 6 -->
+                <div class="photo-container" onclick="openModal();currentSlide(6)">
+                    <div class="photo">
+                        <img src="images/thumb/thumbnail_6.png" alt="The Rig">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"The Rig that hangs over the ocean in the NE. Great concentration of buildings and height."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 6 -->
+
+                <!-- PHOTO-CONTAINER 7 -->
+                <div class="photo-container" onclick="openModal();currentSlide(7)">
+                    <div class="photo">
+                        <img src="images/thumb/thumbnail_7.png" alt="Spotted Lakes">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"Up in the NW corner we have Spotted Lakes. Zip lines, sniper towers, large interior buildings. It has much variety!"</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 7 -->
+
+                <!-- PHOTO-CONTAINER 8 -->
+                <div class="photo-container" onclick="openModal();currentSlide(8)">
+                    <div class="photo">
+                        <img src="images/thumb/thumbnail_8.png" alt="Artillery and beyond">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"Showing a rotation route between the new downed ship and Artillery Base."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 8 -->
+
+            </div>
+        </div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 8</div>
+                <img src="images/thumb/thumbnail_1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 8</div>
+                <img src="images/thumb/thumbnail_2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 8</div>
+                <img src="images/thumb/thumbnail_3.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 8</div>
+                <img src="images/thumb/thumbnail_4.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 8</div>
+                <img src="images/thumb/thumbnail_5.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 8</div>
+                <img src="images/thumb/thumbnail_6.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">7 / 8</div>
+                <img src="images/thumb/thumbnail_7.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">8 / 8</div>
+                <img src="images/thumb/thumbnail_8.png" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+
+            <div class="column">
+                <img class="demo cursor" src="images/thumb/thumbnail_1.png" style="width:100%" onclick="currentSlide(1)" alt="Southern River Overlook">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/thumb/thumbnail_2.png" style="width:100%" onclick="currentSlide(2)" alt="Wildlife">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/thumb/thumbnail_3.png" style="width:100%" onclick="currentSlide(3)" alt="SW Corner">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/thumb/thumbnail_4.png" style="width:100%" onclick="currentSlide(4)" alt="Newly renovated Northern area">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/thumb/thumbnail_5.png" style="width:100%" onclick="currentSlide(5)" alt="NE Corner">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/thumb/thumbnail_6.png" style="width:100%" onclick="currentSlide(6)" alt="The Rig">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/thumb/thumbnail_7.png" style="width:100%" onclick="currentSlide(7)" alt="Spotted Lakes">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/thumb/thumbnail_8.png" style="width:100%" onclick="currentSlide(8)" alt="Artillery and beyond">
+            </div>
+        </div>
+    </div>
+    <!-- END GALLERY -->
+
+    <!-- SIGN UP -->
+    <section id="apply">
+        <div class="container">
+            <div class="heading-padding">
+                <h1 class="heading-padding">Rental Inquiry</h1>
+                <div class="application">
+                    <h2><span>Make an inquiry and tell us some basic details about your event so we can give you some recommendations and a quote!</span>
+                        <br/>Inquire below!
+                    </h2>
+                    <p class="application-text">
+                        Please provide us with your contact information and some basic details.
+                    </p>
+                    <div class="form-apply">
+                        <form action="" method="post">
+                            <input class="inquiry" type="text" value="" placeholder="Your Name">
+                            <input class="inquiry" type="text" value="" placeholder="Organization">
+                            <input class="inquiry" type="text" value="" placeholder="Number of participants">
+                            <input class="inquiry" type="text" value="" placeholder="QEC &#40;Quantum Entangled Communicator&#41; Number">
+                            <input class="inquiry" type="text" value="" placeholder="Type of Event">
+                            <input class="inquiry" type="text" value="" placeholder="Budget">
+                            <input class="inquiry" type="text" value="" placeholder="Date of Event">
+                            <div class="form-spacer">
+                                <label class="terms">Terms and Conditions<label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END SIGN UP -->
+		
+		<!-- INTERACTIVE MAP -->
+		<section id="map">
+		<div class="container">
+			<div class="map-padding">
+				<h1>Interactive Map</h1>
+			</div>
+			<div class="link">
+				<a href="https://apexmap.online/" target="_blank">Apex Map by @idaspin</a>
+			</div>
+			<iframe class="interactivemap"
+				title="Interactive Map"
+				width="1200"
+				height="800"
+				src="https://apexmap.online/">
+			</iframe>
+		</div>
+		</section>
+		
+		<!-- FOOTER -->
+		<div id="footer">
+			www.TheApexGames.org &nbsp;|&nbsp; &copy; 2855
+		</div>
+		<!-- END FOOTER -->
+		
+	</body>
+</html>

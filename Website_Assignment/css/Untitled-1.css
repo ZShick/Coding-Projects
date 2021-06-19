@@ -1,0 +1,177 @@
+/*=========================================================
+    Author: Zachary Shick
+    https://www.linkedin.com/in/zachary-shick-261363207/
+===========================================================
+    GENERIC STYLES
+=========================================================*/
+
+#html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+footer,
+nav {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans=serif;
+}
+
+h1 {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #e91c1c;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+h1::after {
+    /*This is the underline*/
+    display: block;
+    content: "";
+    height: 2px;
+    width: 150px;
+    background: #e91c1c;
+    margin: 5px auto 40px;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    line-height: 50px;
+    color: #e91c1c
+}
+
+h3 {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    padding-top: 25px;
+    line-height: 40px;
+    padding-bottom: 0px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading-padding {
+    padding-bottom: 40px;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.navbar {
+    height: 105px;
+    max-height: 340px;
+    display: block;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.clearfix:after,
+.container:after,
+.navbar:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* This ensures that the images cannot
+       render outside of their container
+       without forcing any scrollbars*/
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    content: " ";
+    /* top: 0;
+    left: 0; */
+    /* position: absolute; */
+    /* to the top edge of the screen */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /*background-color: rgba(255,255,255,0.5);*/
+}
+
+
+/*===========================================
+    HOME SECTION STYLES
+===========================================*/
+
+#home {
+    background: url(../Images/banner.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px;
+    /* This is spacer before the Main title Logo */
+    padding-bottom: 500px;
+    /* This is spacer after the Main title Logo */
+    color: #fff;
+}
