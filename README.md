@@ -16,3 +16,7 @@ Websites Examples: [1](https://github.com/ZShick/Tech-Academy-Projects/tree/main
 [Browser Calculator](https://github.com/ZShick/Tech-Academy-Projects/tree/main/Calculator)
 
 [My Portfolio Site](https://zshick.github.io/#Home)
+
+[Twenty One Game Assignment in C#](https://github.com/ZShick/CSharp-Projects/tree/main/TwentyOne)
+
+[Car Insurance Quote Calculator Admin Controller](https://github.com/ZShick/CSharp-Projects/blob/main/CarInsurance/CarInsurance/Controllers/AdminController.cs)
