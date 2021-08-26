@@ -1,0 +1,9 @@
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\TwentyOne\Casino\bin\Debug\netcoreapp3.1\Casino.deps.json
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\TwentyOne\Casino\bin\Debug\netcoreapp3.1\Casino.dll
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\TwentyOne\Casino\bin\Debug\netcoreapp3.1\Casino.pdb
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.csproj.AssemblyReference.cache
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.AssemblyInfoInputs.cache
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.AssemblyInfo.cs
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.csproj.CoreCompileInputs.cache
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.dll
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\TwentyOne\Casino\obj\Debug\netcoreapp3.1\Casino.pdb

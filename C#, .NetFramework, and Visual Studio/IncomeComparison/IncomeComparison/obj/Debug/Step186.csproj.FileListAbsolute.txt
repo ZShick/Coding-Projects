@@ -1,0 +1,7 @@
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\Step186\Step186\bin\Debug\Step186.exe.config
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\Step186\Step186\bin\Debug\Step186.exe
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\Step186\Step186\bin\Debug\Step186.pdb
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\Step186\Step186\obj\Debug\Step186.csproj.AssemblyReference.cache
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\Step186\Step186\obj\Debug\Step186.csproj.CoreCompileInputs.cache
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\Step186\Step186\obj\Debug\Step186.exe
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\Step186\Step186\obj\Debug\Step186.pdb

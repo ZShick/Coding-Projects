@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Apex Games</title>
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script src="JS/Website.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="wrap">
+        <div class="menu-container">
+            <ul class="menu">
+                <a href="#home">
+                    <li>HOME</li>
+                </a>
+                <a href="#gallery">
+                    <li>GALLERY</li>
+                </a>
+                <a href="#apply">
+                    <li>APPLY</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- HOME -->
+    <div id="home">
+        <div class="container">
+            <div class="text-center">
+                <span class="head-main">The Apex Games</span>
+            </div>
+        </div>
+    </div>
+    <!-- END HOME -->
+
+    <!-- GALLERY -->
+    <section id="gallery">
+        <div class="container">
+            <h1>Gallery of Legends</h1>
+            <div class="flex-container">
+
+                <!-- PHOTO-CONTAINER 1 -->
+                <div class="photo-container" onclick="openModal();currentSlide(1)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_1.png" alt="Picture of Bangelore">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"Amateur hour's over, time for the big leagues." -Bangelore-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 1 -->
+
+                <!-- PHOTO-CONTAINER 2 -->
+                <div class="photo-container" onclick="openModal();currentSlide(2)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_2.png" alt="Picture of Bloodhound">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"The Allfather will gift us today." -Bloodhound-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 2 -->
+
+                <!-- PHOTO-CONTAINER 3 -->
+                <div class="photo-container" onclick="openModal();currentSlide(3)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_3.png" alt="Picture of Caustic">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"Entropy is the natural order of the universe. I simply catalyze the process." -Caustic-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 3 -->
+
+                <!-- PHOTO-CONTAINER 4 -->
+                <div class="photo-container" onclick="openModal();currentSlide(4)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_4.png" alt="Picture of Crypto">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"With an eye in the sky, there's nothing to fear." -Crypto-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 4 -->
+
+                <!-- PHOTO-CONTAINER 5 -->
+                <div class="photo-container" onclick="openModal();currentSlide(5)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_5.png" alt="Picture of Fuse">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"I'm here to pour a little petrol on the situation.” -Fuse-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 5 -->
+
+                <!-- PHOTO-CONTAINER 6 -->
+                <div class="photo-container" onclick="openModal();currentSlide(6)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_6.png" alt="Picture of Gibraltar">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"I'm here to watch your back, brudda." -Gibraltar-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 6 -->
+
+                <!-- PHOTO-CONTAINER 7 -->
+                <div class="photo-container" onclick="openModal();currentSlide(7)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_7.png" alt="Picture of Horizon">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"Let's have a wee play with the laws of physics, shall we?" -Horizon-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 7 -->
+
+                <!-- PHOTO-CONTAINER 8 -->
+                <div class="photo-container" onclick="openModal();currentSlide(8)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_8.png" alt="Picture of Lifeline">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"We're in this together. Memba that." -Lifeline-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 8 -->
+
+                <!-- PHOTO-CONTAINER 9 -->
+                <div class="photo-container" onclick="openModal();currentSlide(9)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_9.png" alt="Picture of Loba">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"What do you get for the girl that has everything? More." -Loba-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 9 -->
+
+                <!-- PHOTO-CONTAINER 10 -->
+                <div class="photo-container" onclick="openModal();currentSlide(10)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_10.png" alt="Picture of Mirage">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"I could win this thing with one eye closed. Or both eyes closed! Hell, I don't even have to show up!" -Mirage-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 10 -->
+
+                <!-- PHOTO-CONTAINER 11 -->
+                <div class="photo-container" onclick="openModal();currentSlide(11)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_11.png" alt="Picture of Octane">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"Stimmed up and ready to burn." -Octane-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 11 -->
+
+                <!-- PHOTO-CONTAINER 12 -->
+                <div class="photo-container" onclick="openModal();currentSlide(12)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_12.png" alt="Picture of Pathfinder">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"Good luck. Have fun. Don't die!" -Pathfinder-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 12 -->
+
+                <!-- PHOTO-CONTAINER 13 -->
+                <div class="photo-container" onclick="openModal();currentSlide(13)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_13.png" alt="Picture of Rampart">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"If I ever let you down, it's probably I because grew a bit tired of carrying you." -Rampart-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 13 -->
+
+                <!-- PHOTO-CONTAINER 14 -->
+                <div class="photo-container" onclick="openModal();currentSlide(14)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_14.png" alt="Picture of Revenant">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"They made me a killing machine. Who am I to argue with programming?" -Revenant-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 14 -->
+
+                <!-- PHOTO-CONTAINER 15 -->
+                <div class="photo-container" onclick="openModal();currentSlide(15)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_15.png" alt="Picture of Wattson">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"All it takes is a single spark." -Wattson-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 15 -->
+
+                <!-- PHOTO-CONTAINER 16 -->
+                <div class="photo-container" onclick="openModal();currentSlide(16)">
+                    <div class="photo">
+                        <img src="Images/Thumb/Thumbnail_16.png" alt="Picture of Wraith">
+                        <div class="photo-overlay">
+                            <h3>Click to Enlarge</h3>
+                            <p>"I know all the roads. They all lead to the same place." -Wraith-</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 16 -->
+
+            </div>
+        </div>
+    </section>
+    <!-- END GALLERY -->
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 16</div>
+                <img src="Images\Thumb\Thumbnail_1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 16</div>
+                <img src="Images\Thumb\Thumbnail_2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 16</div>
+                <img src="Images\Thumb\Thumbnail_3.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 16</div>
+                <img src="Images\Thumb\Thumbnail_4.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 16</div>
+                <img src="Images\Thumb\Thumbnail_5.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 16</div>
+                <img src="Images\Thumb\Thumbnail_6.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">7 / 16</div>
+                <img src="Images\Thumb\Thumbnail_7.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">8 / 16</div>
+                <img src="Images\Thumb\Thumbnail_8.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">9 / 16</div>
+                <img src="Images\Thumb\Thumbnail_9.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">10 / 16</div>
+                <img src="Images\Thumb\Thumbnail_10.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">11 / 16</div>
+                <img src="Images\Thumb\Thumbnail_11.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">12 / 16</div>
+                <img src="Images\Thumb\Thumbnail_12.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">13 / 16</div>
+                <img src="Images\Thumb\Thumbnail_13.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">14 / 16</div>
+                <img src="Images\Thumb\Thumbnail_14.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">15 / 16</div>
+                <img src="Images\Thumb\Thumbnail_15.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">16 / 16</div>
+                <img src="Images\Thumb\Thumbnail_16.png" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_1.png" style="width:100%" onclick="currentSlide(1)" alt="Bangalore">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_2.png" style="width:100%" onclick="currentSlide(2)" alt="Bloodhound">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_3.png" style="width:100%" onclick="currentSlide(3)" alt="Caustic">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_4.png" style="width:100%" onclick="currentSlide(4)" alt="Crypto">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_5.png" style="width:100%" onclick="currentSlide(5)" alt="Fuse">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_6.png" style="width:100%" onclick="currentSlide(6)" alt="Gibraltar">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_7.png" style="width:100%" onclick="currentSlide(7)" alt="Horizon">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_8.png" style="width:100%" onclick="currentSlide(8)" alt="Lifeline">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_9.png" style="width:100%" onclick="currentSlide(9)" alt="Loba">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_10.png" style="width:100%" onclick="currentSlide(10)" alt="Mirage">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_11.png" style="width:100%" onclick="currentSlide(11)" alt="Octane">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_12.png" style="width:100%" onclick="currentSlide(12)" alt="Pathfinder">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_13.png" style="width:100%" onclick="currentSlide(13)" alt="Rampart">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_14.png" style="width:100%" onclick="currentSlide(14)" alt="Revenant">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_15.png" style="width:100%" onclick="currentSlide(15)" alt="Wattson">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="Images\Thumb\Thumbnail_16.png" style="width:100%" onclick="currentSlide(16)" alt="Wraith">
+            </div>
+        </div>
+    </div>
+
+    <!-- APPLY -->
+    <section id="apply">
+        <div class="container">
+            <div class="heading-padding">
+                <h1 class="heading-padding">Apply</h1>
+                <div class="application">
+                    <h2><span>Let's see if you have what it takes to be Champion of the Arena.</span>
+                        <br/>Apply for tryouts today! Become a Legend.
+                    </h2>
+                    <p class="application-text">
+                        Please provide us with your basic contact information and list your Passive ability, Tactical ability, and Ultimate ability. If you peak our interest, we'll contact you further with information on welcoming you into the best Bloodsport in The Outlands.
+                    </p>
+                    <div class="form-apply">
+                        <form action="" method="post">
+                            <input class="rsvp" type="text" value="" placeholder="Alias">
+                            <input class="rsvp" type="text" value="" placeholder="Full Name">
+                            <input class="rsvp" type="text" value="" placeholder="Location">
+                            <input class="rsvp" type="text" value="" placeholder="Passive Ability">
+                            <input class="rsvp" type="text" value="" placeholder="Tactical Ability">
+                            <input class="rsvp" type="text" value="" placeholder="Ultimate Ability">
+                            <input class="rsvp" type="text" value="" placeholder="QEC &#40;Quantum Entangled Communicator&#41; Number">
+                            <div class="form-spacer">
+                                <label class="terms">Terms and Conditions</label>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END APPLY -->
+
+    <!-- FOOTER -->
+    <div id="footer">
+        www.TheApexGames.org &nbsp;|&nbsp; &copy; 2855
+    </div>
+    <!-- END FOOTER -->
+
+</body>
+
+</html>

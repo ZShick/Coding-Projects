@@ -1,0 +1,14 @@
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\step222\step222\bin\Debug\step222.exe.config
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\step222\step222\bin\Debug\step222.exe
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\step222\step222\bin\Debug\step222.pdb
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\step222\step222\obj\Debug\step222.csproj.AssemblyReference.cache
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\step222\step222\obj\Debug\step222.csproj.CoreCompileInputs.cache
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\step222\step222\obj\Debug\step222.exe
+C:\Users\Zizzle\Documents\GitHub\CSharp-Projects\step222\step222\obj\Debug\step222.pdb
+C:\Users\Zizzle\Documents\TechAcademyBacklog\C#\step222\step222\bin\Debug\step222.exe.config
+C:\Users\Zizzle\Documents\TechAcademyBacklog\C#\step222\step222\bin\Debug\step222.exe
+C:\Users\Zizzle\Documents\TechAcademyBacklog\C#\step222\step222\bin\Debug\step222.pdb
+C:\Users\Zizzle\Documents\TechAcademyBacklog\C#\step222\step222\obj\Debug\step222.csproj.AssemblyReference.cache
+C:\Users\Zizzle\Documents\TechAcademyBacklog\C#\step222\step222\obj\Debug\step222.csproj.CoreCompileInputs.cache
+C:\Users\Zizzle\Documents\TechAcademyBacklog\C#\step222\step222\obj\Debug\step222.exe
+C:\Users\Zizzle\Documents\TechAcademyBacklog\C#\step222\step222\obj\Debug\step222.pdb

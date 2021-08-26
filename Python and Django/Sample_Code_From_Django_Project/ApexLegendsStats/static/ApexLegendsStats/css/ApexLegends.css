@@ -1,0 +1,36 @@
+.bg_img {/* This links to and centers by background image.*/
+    background-image: url('/static/ApexLegendsStats/images/ApexBackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header-title {/*changed the font to white so it stood out.*/
+	padding: 2px 16px;
+	text-align: left;
+	color: white;
+}
+
+div {
+    color: white;
+}
+
+.asteriskField {
+    display: none;
+}
+
+.jumbotron {
+    background-color: #192022;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+}
