@@ -45,8 +45,8 @@ h1:hover {
     /* Adds a slightly gray filter to the h1 headings when hovered over */
     transform: scale(1.1);
     /* When the h1 elements are hovered over they increase in size by 1.1 */
-    transition: transform .4s;
-    /* This causes the transformation to last .4 second */
+    transition: transform .2s;
+    /* This causes the transformation to last .2 second */
 }
 
 
@@ -78,8 +78,8 @@ p {
 /* Paragraph element hover effect */
 
 p:hover {
-    transition: transform .4s;
-    /* This makes the transform effect last .4 second */
+    transition: transform .2s;
+    /* This makes the transform effect last .2 second */
     transform: scale(1.01);
     /* This makes the paragraphs increase slightly in size when hovered over */
 }
@@ -96,8 +96,8 @@ p:hover {
 /* Center class hover effect - This only affects the quote, github link, and footer */
 
 .center:hover {
-    transition: transform .4s;
-    /* This makes the transform effect last .4 seconds */
+    transition: transform .2s;
+    /* This makes the transform effect last .2 seconds */
     transform: scale(1.1);
     /* This makes the elements with class "center" increase in size by 1.1 when hovered over */
 }
@@ -124,8 +124,8 @@ q {
 /* Image elements */
 
 img {
-    filter: contrast(75%);
-    /* This 75% contrast */
+    filter: contrast(90%);
+    /* This 90% contrast */
     border-radius: 8px;
     /* Gives all images slightly rounded corners */
     max-width: 100%;
@@ -143,8 +143,8 @@ img {
 img:hover {
     filter: contrast(100%);
     /* adds contrast when hovered */
-    transition: transform .4s;
-    /* Transition lasts .4 second */
+    transition: transform .2s;
+    /* Transition lasts .2 second */
     transform: scale(1.1);
     /* Image is increased slightly when hovered over */
 }
@@ -505,11 +505,11 @@ footer {
 .fade {
     animation-name: fade;
     /* Fade animation is defined below */
-    animation-duration: .5s;
-    /* The animation lasts .5 seconds */
+    animation-duration: .2s;
+    /* The animation lasts .2 seconds */
     -webkit-animation-name: fade;
     /* Same as above for Safari 4.0-8.0 */
-    -webkit-animation-duration: .5s;
+    -webkit-animation-duration: .2s;
 }
 
 @-webkit-keyframes fade {
