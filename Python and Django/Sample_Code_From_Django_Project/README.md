@@ -1,4 +1,4 @@
-Samples of my work on the Django Web App project.
+# Samples of my work on the Django Web App project.
 
 This project was a Django Web app created using the PyCharm IDE.
 I worked with a team and had daily SCRUM meetings and check-ins over Azure and Slack.
